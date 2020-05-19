@@ -1,0 +1,306 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+  background-color: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin-top: 40px;
+}
+
+.en {
+  color: #0054a6;
+  position: relative;
+  line-height: 1.6;
+  font-family: 'Avenir LT W01_65 Medium1475532';
+  letter-spacing: .08em;
+  font-size: 34px;
+}
+
+.slash {
+  color: #00aaea;
+  position: relative;
+  line-height: 1.6;
+  font-family: 'RodinPro-DB';
+  font-weight: 100;
+  letter-spacing: .08em;
+  font-size: 50px;
+}
+
+.ja {
+  font-family: 'FOT-ロダン Pro B';
+  font-weight: bold;
+  color: #0054a6;
+  position: relative;
+  letter-spacing: .08em;
+  font-size: 20px;
+}
+
+.small-title{
+  color: #0054a6;
+  font-weight: bold;
+}
+
+
+.clear{
+  clear: left;
+}
+
+/* headerのスタイル */
+header {
+  height: 80px;
+  width: 100%;
+  background-color: #fff;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  padding: 0 15px;
+  margin: 0 auto;
+  color: #111111;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: 25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #111111;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.logo {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.menu-icon{
+  font-size: 25px;
+  float: right;
+  color: #666666;
+  margin: 21px 0px;
+  display: none;
+}
+
+#menu {
+  display: none;  
+}
+
+/* トップのスタイル */
+.top-wrapper {
+  padding: 180px 0 150px 0;
+  background-image: url(/Users/rei/Desktop/medista-plan/img/header_1.png);
+  background-color:rgba(255,255,255,0.5);
+　background-blend-mode:lighten;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.9;
+}
+
+.top-btn {
+  margin: 15px 0;
+}
+
+.btn-flat-border {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #fff;
+  border: solid 2px #fff;
+  transition: .2s;
+}
+
+.btn-flat-border:hover {
+  background: #f5f5f5;
+  color: white;
+}
+
+/* CONCEPTのスタイル */
+.concept-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+  height: 1150px;
+}
+
+.heading {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.concept-content {
+  float: left;
+  width: 50%;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #666666;
+  text-align: left;
+  letter-spacing: 3px;
+}
+
+.concept img {
+  width: 80%;
+  margin: 20px 0;
+}
+
+/* aboutのスタイル */
+.about-wrapper {
+  margin-bottom: 50px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #d0e7f6;
+  text-align: center;
+  height: 1250px;
+}
+
+.about-content {
+  float: left;
+  width: 50%;
+}
+.merit {
+  margin-left: 90px;
+}
+
+.merit ul {
+  border: solid 2px #0054a6;
+  padding: 0 0.5em;
+  position: relative;
+  width: 80%;
+}
+
+.merit ul li {
+  line-height: 1.5;
+  padding: 0.5em 0 0.5em 1.4em;
+  border-bottom: dashed 1px silver;
+  list-style-type: none!important;
+  text-align: left;
+}
+
+.merit ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f138";/*アイコン種類*/
+  position: absolute;
+  left : 0.5em; /*左端からのアイコンまで*/
+  color: #0054a6; /*アイコン色*/
+}
+
+.merit ul li:last-of-type {
+  border-bottom: none;
+}
+
+.about-img{
+  width: 80%;
+}
+
+/* fanctionのスタイル */
+.function-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+  height: 2200px;
+}
+
+.function-content {
+  float: left;
+  width: 33.3%;
+}
+
+.classroom img{
+  width: 100%;
+  margin: 50px 0;
+}
+
+.function-icon img {
+  width: 50%;
+  border-radius: 50px;
+}
+
+/* planのスタイル */
+.plan-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #d0e7f6;
+  text-align: center;
+  height: 900px;
+}
+
+.plan-content {
+  float: left;
+  width: 33.3%;
+}
+
+.plan-icon img{
+  width: 80%;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: #111;
+  padding: 0 15px;
+  margin: 0 auto;
+  color: #fff;
+}
+.sns{
+  margin-top: 10px;
+  margin-right: auto;
+  float: right;
+}
+
+.btn-footer{
+  color: white;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.menu-icon {
+  display: none;
+}
